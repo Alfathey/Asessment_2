@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 
 // Ambil ID yang akan dihapus dari parameter GET
-$id = $_GET['id'];
+$Id = $_GET['Id'];
 
 // Hapus data dari tabel
 $sql = "DELETE FROM modul_pembelajaran WHERE id = $id";
